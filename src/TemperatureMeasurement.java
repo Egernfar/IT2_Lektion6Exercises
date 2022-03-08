@@ -1,7 +1,7 @@
 import java.sql.Timestamp;
 
-public class TemperatureMeasurement {
-    private Timestamp time;
+public class TemperatureMeasurement extends Measurements{
+
     private String cprNo;
     private int value;
 }
