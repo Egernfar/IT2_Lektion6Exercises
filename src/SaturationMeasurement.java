@@ -1,8 +1,7 @@
 import java.sql.Timestamp;
 
-public class SaturationMeasurement {
+public class SaturationMeasurement extends Measurements {
     private Timestamp time;
-    private String cprNo;
     private double infrared;
     private double red;
 

@@ -1,8 +1,7 @@
 import java.sql.Timestamp;
 
-public class EKGMeasurement {
+public class EKGMeasurement extends Measurements{
     private Timestamp time;
-    private String cprNo;
     private double voltage;
     private String lead; //Afledning
 }
